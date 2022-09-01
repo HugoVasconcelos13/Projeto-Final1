@@ -122,7 +122,7 @@ function collectStars(){
 
 function removeLife(){
     nave1.overlap(obstacles,function(collector,collected){
-    life-=100;
+    life-=25;
         collected.remove();
     })
 }
